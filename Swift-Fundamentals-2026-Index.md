@@ -205,3 +205,15 @@ Official references:
 - `Day-16-Memory-Management/Day-16-06-closures-and-memory-leaks.md`
 - `Day-16-Memory-Management/Day-16-07-debugging-memory-issues.md`
 - `Day-16-Memory-Management/Day-16-08-memory-management-interview-guide.md`
+
+## Day 17 Files
+
+- `Day-17-Access-Control-And-Modules/Day-17-01-private.md`
+- `Day-17-Access-Control-And-Modules/Day-17-02-fileprivate.md`
+- `Day-17-Access-Control-And-Modules/Day-17-03-internal.md`
+- `Day-17-Access-Control-And-Modules/Day-17-04-package.md`
+- `Day-17-Access-Control-And-Modules/Day-17-05-public.md`
+- `Day-17-Access-Control-And-Modules/Day-17-06-open.md`
+- `Day-17-Access-Control-And-Modules/Day-17-07-module-boundaries.md`
+- `Day-17-Access-Control-And-Modules/Day-17-08-framework-design-basics.md`
+- `Day-17-Access-Control-And-Modules/Day-17-09-access-control-and-modules-interview-guide.md`
