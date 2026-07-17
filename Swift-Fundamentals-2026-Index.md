@@ -252,3 +252,152 @@ Official references:
 - `Day-20-Advanced-Concurrency-And-Networking/Day-20-06-retry-and-timeout-patterns.md`
 - `Day-20-Advanced-Concurrency-And-Networking/Day-20-07-actor-isolated-services.md`
 - `Day-20-Advanced-Concurrency-And-Networking/Day-20-08-advanced-concurrency-networking-interview-guide.md`
+
+## Day 21 Files
+
+- `Day-21-Swift-Standard-Library-Deep-Dive/Day-21-01-collection-protocols.md`
+- `Day-21-Swift-Standard-Library-Deep-Dive/Day-21-02-sequences.md`
+- `Day-21-Swift-Standard-Library-Deep-Dive/Day-21-03-lazy-sequences.md`
+- `Day-21-Swift-Standard-Library-Deep-Dive/Day-21-04-result-builders.md`
+- `Day-21-Swift-Standard-Library-Deep-Dive/Day-21-05-key-paths.md`
+- `Day-21-Swift-Standard-Library-Deep-Dive/Day-21-06-codable.md`
+- `Day-21-Swift-Standard-Library-Deep-Dive/Day-21-07-comparable-hashable-equatable.md`
+- `Day-21-Swift-Standard-Library-Deep-Dive/Day-21-08-standard-library-interview-guide.md`
+
+## Day 22 Files
+
+- `Day-22-Swift-Package-Manager/Day-22-01-package-structure.md`
+- `Day-22-Swift-Package-Manager/Day-22-02-targets-and-products.md`
+- `Day-22-Swift-Package-Manager/Day-22-03-dependencies.md`
+- `Day-22-Swift-Package-Manager/Day-22-04-resources.md`
+- `Day-22-Swift-Package-Manager/Day-22-05-plugins.md`
+- `Day-22-Swift-Package-Manager/Day-22-06-package-traits-swift-6-1.md`
+- `Day-22-Swift-Package-Manager/Day-22-07-warning-control-swift-6-2.md`
+- `Day-22-Swift-Package-Manager/Day-22-08-swift-package-manager-interview-guide.md`
+
+## Day 23 Files
+
+- `Day-23-Macros-And-Code-Generation/Day-23-01-macro-purpose.md`
+- `Day-23-Macros-And-Code-Generation/Day-23-02-freestanding-macros.md`
+- `Day-23-Macros-And-Code-Generation/Day-23-03-attached-macros.md`
+- `Day-23-Macros-And-Code-Generation/Day-23-04-swiftsyntax-basics.md`
+- `Day-23-Macros-And-Code-Generation/Day-23-05-macro-use-cases.md`
+- `Day-23-Macros-And-Code-Generation/Day-23-06-build-performance-improvements-swift-6-2.md`
+- `Day-23-Macros-And-Code-Generation/Day-23-07-macros-and-code-generation-interview-guide.md`
+
+## Day 24 Files
+
+- `Day-24-Swift-Testing/Day-24-01-swift-testing-basics.md`
+- `Day-24-Swift-Testing/Day-24-02-test-macro.md`
+- `Day-24-Swift-Testing/Day-24-03-expect.md`
+- `Day-24-Swift-Testing/Day-24-04-traits.md`
+- `Day-24-Swift-Testing/Day-24-05-custom-test-scoping-swift-6-1.md`
+- `Day-24-Swift-Testing/Day-24-06-exit-testing-swift-6-2.md`
+- `Day-24-Swift-Testing/Day-24-07-attachments-swift-6-2.md`
+- `Day-24-Swift-Testing/Day-24-08-swift-testing-interview-guide.md`
+
+## Day 25 Files
+
+- `Day-25-SwiftUI-Fundamentals/Day-25-01-view-protocol.md`
+- `Day-25-SwiftUI-Fundamentals/Day-25-02-state.md`
+- `Day-25-SwiftUI-Fundamentals/Day-25-03-binding.md`
+- `Day-25-SwiftUI-Fundamentals/Day-25-04-observable-state.md`
+- `Day-25-SwiftUI-Fundamentals/Day-25-05-environment.md`
+- `Day-25-SwiftUI-Fundamentals/Day-25-06-view-identity.md`
+- `Day-25-SwiftUI-Fundamentals/Day-25-07-layout-basics.md`
+- `Day-25-SwiftUI-Fundamentals/Day-25-08-navigation.md`
+- `Day-25-SwiftUI-Fundamentals/Day-25-09-swiftui-fundamentals-interview-guide.md`
+
+## Day 26 Files
+
+- `Day-26-SwiftUI-Intermediate/Day-26-01-lists.md`
+- `Day-26-SwiftUI-Intermediate/Day-26-02-forms.md`
+- `Day-26-SwiftUI-Intermediate/Day-26-03-sheets.md`
+- `Day-26-SwiftUI-Intermediate/Day-26-04-alerts.md`
+- `Day-26-SwiftUI-Intermediate/Day-26-05-animations.md`
+- `Day-26-SwiftUI-Intermediate/Day-26-06-custom-components.md`
+- `Day-26-SwiftUI-Intermediate/Day-26-07-mvvm-in-swiftui.md`
+- `Day-26-SwiftUI-Intermediate/Day-26-08-observation-framework.md`
+- `Day-26-SwiftUI-Intermediate/Day-26-09-swiftui-intermediate-interview-guide.md`
+- `Day-26-SwiftUI-Intermediate/Day-26-10-scrollview-lazy-containers-and-grids.md`
+- `Day-26-SwiftUI-Intermediate/Day-26-11-tabview-toolbars-menus-and-commands.md`
+- `Day-26-SwiftUI-Intermediate/Day-26-12-gestures-and-interactions.md`
+- `Day-26-SwiftUI-Intermediate/Day-26-13-view-lifecycle-tasks-and-refresh.md`
+- `Day-26-SwiftUI-Intermediate/Day-26-14-previews-and-preview-driven-development.md`
+- `Day-26-SwiftUI-Intermediate/Day-26-15-accessibility-dynamic-type-and-localization.md`
+- `Day-26-SwiftUI-Intermediate/Day-26-16-appstorage-scenestorage-and-persistence-boundaries.md`
+
+## Day 27 Files
+
+- `Day-27-SwiftUI-Advanced/Day-27-01-custom-layout-and-layout-protocol.md`
+- `Day-27-SwiftUI-Advanced/Day-27-02-geometry-preferences-and-anchors.md`
+- `Day-27-SwiftUI-Advanced/Day-27-03-advanced-navigation-and-deep-linking.md`
+- `Day-27-SwiftUI-Advanced/Day-27-04-swiftui-performance-and-instruments.md`
+- `Day-27-SwiftUI-Advanced/Day-27-05-uikit-interop-and-representables.md`
+- `Day-27-SwiftUI-Advanced/Day-27-06-canvas-timelineview-drawing-and-graphics.md`
+- `Day-27-SwiftUI-Advanced/Day-27-07-advanced-animation-transitions-and-visual-effects.md`
+- `Day-27-SwiftUI-Advanced/Day-27-08-advanced-data-flow-environment-and-dependency-injection.md`
+- `Day-27-SwiftUI-Advanced/Day-27-09-async-ui-patterns-search-pagination-and-cancellation.md`
+- `Day-27-SwiftUI-Advanced/Day-27-10-production-hardening-testing-and-architecture-review.md`
+- `Day-27-SwiftUI-Advanced/Day-27-11-swiftui-advanced-interview-guide.md`
+
+## Day 28 Files
+
+- `Day-28-Architecture-MVVM/Day-28-01-mvvm-purpose-and-mental-model.md`
+- `Day-28-Architecture-MVVM/Day-28-02-model-layer-domain-dto-and-repository-boundaries.md`
+- `Day-28-Architecture-MVVM/Day-28-03-viewmodel-design-state-actions-and-outputs.md`
+- `Day-28-Architecture-MVVM/Day-28-04-swiftui-mvvm-observation-lifecycle-and-binding.md`
+- `Day-28-Architecture-MVVM/Day-28-05-dependency-injection-services-and-use-cases.md`
+- `Day-28-Architecture-MVVM/Day-28-06-navigation-coordination-and-routing-in-mvvm.md`
+- `Day-28-Architecture-MVVM/Day-28-07-async-state-error-handling-and-side-effects.md`
+- `Day-28-Architecture-MVVM/Day-28-08-testing-mvvm-unit-tests-preview-data-and-mocks.md`
+- `Day-28-Architecture-MVVM/Day-28-09-mvvm-with-combine-closures-and-reactive-streams.md`
+- `Day-28-Architecture-MVVM/Day-28-10-anti-patterns-tradeoffs-and-architecture-decisions.md`
+- `Day-28-Architecture-MVVM/Day-28-11-mvvm-interview-guide-and-senior-artifacts.md`
+
+## Day 29 Files
+
+- `Day-29-Architecture-VIPER-TCA/Day-29-01-viper-purpose-and-clean-architecture-mental-model.md`
+- `Day-29-Architecture-VIPER-TCA/Day-29-02-viper-module-design-protocols-and-assembly.md`
+- `Day-29-Architecture-VIPER-TCA/Day-29-03-viper-presenter-interactor-router-in-depth.md`
+- `Day-29-Architecture-VIPER-TCA/Day-29-04-viper-testing-use-cases-and-tradeoffs.md`
+- `Day-29-Architecture-VIPER-TCA/Day-29-05-tca-purpose-core-concepts-and-mental-model.md`
+- `Day-29-Architecture-VIPER-TCA/Day-29-06-tca-state-actions-reducers-effects-and-dependencies.md`
+- `Day-29-Architecture-VIPER-TCA/Day-29-07-tca-navigation-composition-and-modularization.md`
+- `Day-29-Architecture-VIPER-TCA/Day-29-08-tca-testing-teststore-and-effect-control.md`
+- `Day-29-Architecture-VIPER-TCA/Day-29-09-viper-vs-tca-vs-mvvm-decision-guide.md`
+- `Day-29-Architecture-VIPER-TCA/Day-29-10-viper-tca-interview-guide-and-senior-artifacts.md`
+- `Day-29-Architecture-VIPER-TCA/Day-29-11-tca-feature-modeling-from-requirements.md`
+- `Day-29-Architecture-VIPER-TCA/Day-29-12-tca-bindings-forms-alerts-and-presentation.md`
+- `Day-29-Architecture-VIPER-TCA/Day-29-13-tca-dependencies-clients-and-live-preview-test-values.md`
+- `Day-29-Architecture-VIPER-TCA/Day-29-14-tca-shared-state-persistence-and-app-scale.md`
+- `Day-29-Architecture-VIPER-TCA/Day-29-15-tca-performance-debugging-and-reducer-size.md`
+- `Day-29-Architecture-VIPER-TCA/Day-29-16-tca-migration-and-adoption-strategy.md`
+- `Day-29-Architecture-VIPER-TCA/Day-29-17-tca-senior-interview-deep-dive.md`
+
+## Day 30 Files
+
+- `Day-30-iOS-App-Design-Patterns/Day-30-01-dependency-injection.md`
+- `Day-30-iOS-App-Design-Patterns/Day-30-02-coordinator-pattern.md`
+- `Day-30-iOS-App-Design-Patterns/Day-30-03-repository-pattern.md`
+- `Day-30-iOS-App-Design-Patterns/Day-30-04-service-layer-and-use-cases.md`
+- `Day-30-iOS-App-Design-Patterns/Day-30-05-facade-pattern.md`
+- `Day-30-iOS-App-Design-Patterns/Day-30-06-singleton-pattern.md`
+- `Day-30-iOS-App-Design-Patterns/Day-30-07-state-management-patterns.md`
+- `Day-30-iOS-App-Design-Patterns/Day-30-08-factory-builder-and-assembly-patterns.md`
+- `Day-30-iOS-App-Design-Patterns/Day-30-09-adapter-bridge-and-wrapper-patterns.md`
+- `Day-30-iOS-App-Design-Patterns/Day-30-10-strategy-and-policy-patterns.md`
+- `Day-30-iOS-App-Design-Patterns/Day-30-11-observer-publisher-and-delegate-patterns.md`
+- `Day-30-iOS-App-Design-Patterns/Day-30-12-design-patterns-interview-guide.md`
+
+## Day 31 Files
+
+- `Day-31-Persistence/Day-31-01-userdefaults.md`
+- `Day-31-Persistence/Day-31-02-keychain.md`
+- `Day-31-Persistence/Day-31-03-filemanager.md`
+- `Day-31-Persistence/Day-31-04-codable-persistence.md`
+- `Day-31-Persistence/Day-31-05-sqlite-basics.md`
+- `Day-31-Persistence/Day-31-06-swiftdata-core-data-overview.md`
+- `Day-31-Persistence/Day-31-07-migration-basics.md`
+- `Day-31-Persistence/Day-31-08-persistence-decision-guide-and-security.md`
+- `Day-31-Persistence/Day-31-09-persistence-interview-guide.md`
