@@ -302,3 +302,72 @@ Modern Swift concurrency asks who owns mutable state. If many tasks need the sam
 - Rewrite the example with one deliberate bug, then explain how a reviewer should catch it.
 - Turn the example into a two-minute interview explanation with tradeoffs.
 
+## Senior iOS Engineer Artifact
+
+### Senior Mental Model
+
+For a senior iOS engineer, the topic **Actors** is evaluated through this lens: modern Swift concurrency is data-race prevention; senior engineers make ownership and isolation compiler-visible. The goal is not to memorize the keyword or syntax in isolation. The goal is to understand how this topic changes correctness, ownership, testability, performance, and team-scale maintainability.
+
+A senior engineer asks:
+
+- What invariant does this protect?
+- What future bug does this make harder to introduce?
+- What does the call site communicate to another engineer?
+- What is the runtime, memory, concurrency, or API-evolution cost?
+- Can this design survive a larger feature, a second caller, or a module boundary?
+
+### Artifact To Produce While Studying
+
+Create this artifact for the topic:
+
+```text
+Artifact: a concurrency-safety artifact listing actor-isolated state, Sendable values, global actors, nonisolated APIs, and migration risks
+Topic: Actors
+Owner: Which type/module owns the decision?
+Boundary: Is this local, feature-wide, package-wide, public API, actor-isolated, or UI-only?
+Invariant: What must always remain true?
+Failure Mode: What breaks if this is misused?
+Verification: How would I prove it with tests, logs, compiler checks, or tooling?
+```
+
+This artifact forces senior-level thinking. It turns a language feature into an engineering decision with evidence.
+
+### Senior-Level Scenario
+
+Imagine migrating Swift 5 code to Swift 6, isolating caches, designing UI models, and reviewing shared services. A junior answer usually explains what the syntax does. A senior answer explains the design pressure:
+
+```text
+I would first identify the owner and boundary. Then I would choose the smallest surface that preserves the invariant, keeps the call site readable, and avoids leaking implementation details. I would also check the failure path and decide how to verify the behavior with tests or tooling.
+```
+
+### What Can Go Wrong
+
+The senior-level risk for this area is silencing warnings with unchecked annotations rather than fixing ownership and transfer boundaries.
+
+That risk matters because iOS apps grow by accumulation. A small unclear decision can become a pattern copied into screens, services, tests, and public APIs.
+
+### Review Checklist
+
+Use this checklist in code review:
+
+- What isolation domain owns the state?
+- Is this value Sendable?
+- Is @unchecked justified and documented?
+- Is the example still understandable six months later?
+- Does the implementation make the safe path easier than the unsafe path?
+- If this appears in an interview, can I explain both the syntax and the tradeoff?
+
+### Senior Interview Framing
+
+Use this structure when answering at senior level:
+
+```text
+At the syntax level, this feature does X. At the design level, I use it to protect Y. The tradeoff is Z. In a real iOS app, I would apply it in this scenario, verify it this way, and avoid this common misuse.
+```
+
+For **Actors**, fill it like this:
+
+```text
+At the syntax level, this topic gives me a Swift mechanism for a specific behavior. At the design level, I use it to make ownership, state, or boundaries clearer. The tradeoff is that misuse can hide complexity or create coupling. In a real iOS app, I would apply it where the invariant matters, verify it with focused tests or tooling, and avoid using it just because the syntax is available.
+```
+
