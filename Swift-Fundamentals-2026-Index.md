@@ -194,3 +194,14 @@ Official references:
 - `Day-15-Closures/Day-15-06-capture-lists.md`
 - `Day-15-Closures/Day-15-07-closures-in-swiftui-and-uikit.md`
 - `Day-15-Closures/Day-15-08-closures-interview-guide.md`
+
+## Day 16 Files
+
+- `Day-16-Memory-Management/Day-16-01-arc.md`
+- `Day-16-Memory-Management/Day-16-02-strong-references.md`
+- `Day-16-Memory-Management/Day-16-03-weak-references.md`
+- `Day-16-Memory-Management/Day-16-04-unowned-references.md`
+- `Day-16-Memory-Management/Day-16-05-retain-cycles.md`
+- `Day-16-Memory-Management/Day-16-06-closures-and-memory-leaks.md`
+- `Day-16-Memory-Management/Day-16-07-debugging-memory-issues.md`
+- `Day-16-Memory-Management/Day-16-08-memory-management-interview-guide.md`
