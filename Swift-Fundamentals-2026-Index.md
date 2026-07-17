@@ -43,3 +43,16 @@ Official references:
 - `Day-02-Control-Flow/Day-02-04-guard-and-early-exits.md`
 - `Day-02-Control-Flow/Day-02-05-pattern-matching-and-where.md`
 - `Day-02-Control-Flow/Day-02-06-control-flow-interview-guide.md`
+
+## Day 3 Files
+
+- `Day-03-Functions/Day-03-01-function-declaration.md`
+- `Day-03-Functions/Day-03-02-parameters-and-return-values.md`
+- `Day-03-Functions/Day-03-03-argument-labels.md`
+- `Day-03-Functions/Day-03-04-default-parameters.md`
+- `Day-03-Functions/Day-03-05-variadic-parameters.md`
+- `Day-03-Functions/Day-03-06-inout-parameters.md`
+- `Day-03-Functions/Day-03-07-function-types.md`
+- `Day-03-Functions/Day-03-08-nested-functions.md`
+- `Day-03-Functions/Day-03-09-higher-order-functions-introduction.md`
+- `Day-03-Functions/Day-03-10-functions-interview-guide.md`
