@@ -217,3 +217,38 @@ Official references:
 - `Day-17-Access-Control-And-Modules/Day-17-07-module-boundaries.md`
 - `Day-17-Access-Control-And-Modules/Day-17-08-framework-design-basics.md`
 - `Day-17-Access-Control-And-Modules/Day-17-09-access-control-and-modules-interview-guide.md`
+
+## Day 18 Files
+
+- `Day-18-Concurrency-Basics/Day-18-01-async-and-await.md`
+- `Day-18-Concurrency-Basics/Day-18-02-tasks.md`
+- `Day-18-Concurrency-Basics/Day-18-03-structured-concurrency.md`
+- `Day-18-Concurrency-Basics/Day-18-04-task-cancellation.md`
+- `Day-18-Concurrency-Basics/Day-18-05-task-priority.md`
+- `Day-18-Concurrency-Basics/Day-18-06-async-sequences.md`
+- `Day-18-Concurrency-Basics/Day-18-07-main-actor-basics.md`
+- `Day-18-Concurrency-Basics/Day-18-08-concurrency-basics-interview-guide.md`
+
+## Day 19 Files
+
+- `Day-19-Modern-Swift-Concurrency/Day-19-01-actors.md`
+- `Day-19-Modern-Swift-Concurrency/Day-19-02-global-actors.md`
+- `Day-19-Modern-Swift-Concurrency/Day-19-03-sendable.md`
+- `Day-19-Modern-Swift-Concurrency/Day-19-04-strict-concurrency.md`
+- `Day-19-Modern-Swift-Concurrency/Day-19-05-data-race-safety.md`
+- `Day-19-Modern-Swift-Concurrency/Day-19-06-swift-6-migration-issues.md`
+- `Day-19-Modern-Swift-Concurrency/Day-19-07-swift-6-2-approachable-concurrency.md`
+- `Day-19-Modern-Swift-Concurrency/Day-19-08-at-concurrent.md`
+- `Day-19-Modern-Swift-Concurrency/Day-19-09-default-actor-isolation.md`
+- `Day-19-Modern-Swift-Concurrency/Day-19-10-modern-concurrency-interview-guide.md`
+
+## Day 20 Files
+
+- `Day-20-Advanced-Concurrency-And-Networking/Day-20-01-urlsession-async-apis.md`
+- `Day-20-Advanced-Concurrency-And-Networking/Day-20-02-parallel-async-work.md`
+- `Day-20-Advanced-Concurrency-And-Networking/Day-20-03-task-groups.md`
+- `Day-20-Advanced-Concurrency-And-Networking/Day-20-04-async-let.md`
+- `Day-20-Advanced-Concurrency-And-Networking/Day-20-05-asyncstream.md`
+- `Day-20-Advanced-Concurrency-And-Networking/Day-20-06-retry-and-timeout-patterns.md`
+- `Day-20-Advanced-Concurrency-And-Networking/Day-20-07-actor-isolated-services.md`
+- `Day-20-Advanced-Concurrency-And-Networking/Day-20-08-advanced-concurrency-networking-interview-guide.md`
