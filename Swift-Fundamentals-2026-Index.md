@@ -33,6 +33,7 @@ Official references:
 - `Day-01-Swift-Basics/Day-01-03-basic-data-types-and-literals.md`
 - `Day-01-Swift-Basics/Day-01-04-operators-expressions-and-basic-input-output.md`
 - `Day-01-Swift-Basics/Day-01-05-swift-6-1-to-6-3-updates-for-beginners.md`
+- `Day-01-Swift-Basics/Day-01-06-swift-basics-interview-guide.md`
 
 ## Day 2 Files
 
