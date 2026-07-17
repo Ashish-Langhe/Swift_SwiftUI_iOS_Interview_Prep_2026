@@ -56,3 +56,141 @@ Official references:
 - `Day-03-Functions/Day-03-08-nested-functions.md`
 - `Day-03-Functions/Day-03-09-higher-order-functions-introduction.md`
 - `Day-03-Functions/Day-03-10-functions-interview-guide.md`
+
+## Day 4 Files
+
+- `Day-04-Optionals/Day-04-01-optional-meaning-and-memory-model-intuition.md`
+- `Day-04-Optionals/Day-04-02-optional-binding.md`
+- `Day-04-Optionals/Day-04-03-optional-chaining.md`
+- `Day-04-Optionals/Day-04-04-nil-coalescing.md`
+- `Day-04-Optionals/Day-04-05-force-unwrap-risks.md`
+- `Day-04-Optionals/Day-04-06-implicitly-unwrapped-optionals.md`
+- `Day-04-Optionals/Day-04-07-optional-pattern-matching.md`
+- `Day-04-Optionals/Day-04-08-real-ios-examples-api-responses-and-view-state.md`
+- `Day-04-Optionals/Day-04-09-optionals-interview-guide.md`
+
+## Day 5 Files
+
+- `Day-05-Collections/Day-05-01-arrays.md`
+- `Day-05-Collections/Day-05-02-dictionaries.md`
+- `Day-05-Collections/Day-05-03-sets.md`
+- `Day-05-Collections/Day-05-04-collection-mutability.md`
+- `Day-05-Collections/Day-05-05-iteration-patterns.md`
+- `Day-05-Collections/Day-05-06-sorting-filtering-mapping.md`
+- `Day-05-Collections/Day-05-07-collection-performance-basics.md`
+- `Day-05-Collections/Day-05-08-array-vs-set-vs-dictionary.md`
+- `Day-05-Collections/Day-05-09-collections-interview-guide.md`
+
+## Day 6 Files
+
+- `Day-06-Strings-And-Characters/Day-06-01-string-vs-character.md`
+- `Day-06-Strings-And-Characters/Day-06-02-unicode-and-grapheme-clusters.md`
+- `Day-06-Strings-And-Characters/Day-06-03-string-indexing.md`
+- `Day-06-Strings-And-Characters/Day-06-04-substrings.md`
+- `Day-06-Strings-And-Characters/Day-06-05-formatting.md`
+- `Day-06-Strings-And-Characters/Day-06-06-localization-basics.md`
+- `Day-06-Strings-And-Characters/Day-06-07-common-interview-traps.md`
+- `Day-06-Strings-And-Characters/Day-06-08-strings-interview-guide.md`
+
+## Day 7 Files
+
+- `Day-07-Tuples-Ranges-Pattern-Matching/Day-07-01-tuples.md`
+- `Day-07-Tuples-Ranges-Pattern-Matching/Day-07-02-named-tuple-elements.md`
+- `Day-07-Tuples-Ranges-Pattern-Matching/Day-07-03-returning-multiple-values.md`
+- `Day-07-Tuples-Ranges-Pattern-Matching/Day-07-04-ranges.md`
+- `Day-07-Tuples-Ranges-Pattern-Matching/Day-07-05-pattern-matching-in-switch.md`
+- `Day-07-Tuples-Ranges-Pattern-Matching/Day-07-06-if-guard-for-case.md`
+- `Day-07-Tuples-Ranges-Pattern-Matching/Day-07-07-tuples-ranges-patterns-interview-guide.md`
+
+## Day 8 Files
+
+- `Day-08-Structs-And-Value-Types/Day-08-01-struct-declaration.md`
+- `Day-08-Structs-And-Value-Types/Day-08-02-stored-properties.md`
+- `Day-08-Structs-And-Value-Types/Day-08-03-computed-properties.md`
+- `Day-08-Structs-And-Value-Types/Day-08-04-initializers.md`
+- `Day-08-Structs-And-Value-Types/Day-08-05-methods.md`
+- `Day-08-Structs-And-Value-Types/Day-08-06-mutating-methods.md`
+- `Day-08-Structs-And-Value-Types/Day-08-07-value-semantics.md`
+- `Day-08-Structs-And-Value-Types/Day-08-08-copy-on-write-intuition.md`
+- `Day-08-Structs-And-Value-Types/Day-08-09-why-swift-prefers-structs.md`
+- `Day-08-Structs-And-Value-Types/Day-08-10-structs-interview-guide.md`
+
+## Day 9 Files
+
+- `Day-09-Classes-And-Reference-Types/Day-09-01-class-declaration.md`
+- `Day-09-Classes-And-Reference-Types/Day-09-02-reference-semantics.md`
+- `Day-09-Classes-And-Reference-Types/Day-09-03-identity-vs-equality.md`
+- `Day-09-Classes-And-Reference-Types/Day-09-04-initializers-and-deinitializers.md`
+- `Day-09-Classes-And-Reference-Types/Day-09-05-inheritance.md`
+- `Day-09-Classes-And-Reference-Types/Day-09-06-method-overriding.md`
+- `Day-09-Classes-And-Reference-Types/Day-09-07-final.md`
+- `Day-09-Classes-And-Reference-Types/Day-09-08-memory-implications.md`
+- `Day-09-Classes-And-Reference-Types/Day-09-09-classes-interview-guide.md`
+
+## Day 10 Files
+
+- `Day-10-Enums/Day-10-01-basic-enums.md`
+- `Day-10-Enums/Day-10-02-associated-values.md`
+- `Day-10-Enums/Day-10-03-raw-values.md`
+- `Day-10-Enums/Day-10-04-recursive-enums.md`
+- `Day-10-Enums/Day-10-05-caseiterable.md`
+- `Day-10-Enums/Day-10-06-identifiable-enums.md`
+- `Day-10-Enums/Day-10-07-state-modeling-in-ios.md`
+- `Day-10-Enums/Day-10-08-enum-driven-ui.md`
+- `Day-10-Enums/Day-10-09-enums-interview-guide.md`
+
+## Day 11 Files
+
+- `Day-11-Properties/Day-11-01-stored-properties.md`
+- `Day-11-Properties/Day-11-02-computed-properties.md`
+- `Day-11-Properties/Day-11-03-lazy-properties.md`
+- `Day-11-Properties/Day-11-04-property-observers.md`
+- `Day-11-Properties/Day-11-05-type-properties.md`
+- `Day-11-Properties/Day-11-06-access-control-on-properties.md`
+- `Day-11-Properties/Day-11-07-property-wrappers-introduction.md`
+- `Day-11-Properties/Day-11-08-properties-interview-guide.md`
+
+## Day 12 Files
+
+- `Day-12-Protocols/Day-12-01-protocol-declaration.md`
+- `Day-12-Protocols/Day-12-02-requirements.md`
+- `Day-12-Protocols/Day-12-03-protocol-conformance.md`
+- `Day-12-Protocols/Day-12-04-protocol-extensions.md`
+- `Day-12-Protocols/Day-12-05-associated-types.md`
+- `Day-12-Protocols/Day-12-06-existentials-with-any.md`
+- `Day-12-Protocols/Day-12-07-opaque-types-with-some.md`
+- `Day-12-Protocols/Day-12-08-protocol-oriented-programming.md`
+- `Day-12-Protocols/Day-12-09-protocols-interview-guide.md`
+
+## Day 13 Files
+
+- `Day-13-Generics/Day-13-01-generic-functions.md`
+- `Day-13-Generics/Day-13-02-generic-types.md`
+- `Day-13-Generics/Day-13-03-type-constraints.md`
+- `Day-13-Generics/Day-13-04-associated-types-with-generics.md`
+- `Day-13-Generics/Day-13-05-generic-where-clauses.md`
+- `Day-13-Generics/Day-13-06-type-erasure-introduction.md`
+- `Day-13-Generics/Day-13-07-interview-examples.md`
+- `Day-13-Generics/Day-13-08-generics-interview-guide.md`
+
+## Day 14 Files
+
+- `Day-14-Error-Handling/Day-14-01-error-protocol.md`
+- `Day-14-Error-Handling/Day-14-02-throw-throws-try.md`
+- `Day-14-Error-Handling/Day-14-03-try-question-mark-and-try-bang.md`
+- `Day-14-Error-Handling/Day-14-04-do-catch.md`
+- `Day-14-Error-Handling/Day-14-05-typed-error-modeling.md`
+- `Day-14-Error-Handling/Day-14-06-result-type.md`
+- `Day-14-Error-Handling/Day-14-07-error-handling-in-async-code.md`
+- `Day-14-Error-Handling/Day-14-08-error-handling-interview-guide.md`
+
+## Day 15 Files
+
+- `Day-15-Closures/Day-15-01-closure-syntax.md`
+- `Day-15-Closures/Day-15-02-capturing-values.md`
+- `Day-15-Closures/Day-15-03-escaping-vs-non-escaping-closures.md`
+- `Day-15-Closures/Day-15-04-autoclosures.md`
+- `Day-15-Closures/Day-15-05-retain-cycles.md`
+- `Day-15-Closures/Day-15-06-capture-lists.md`
+- `Day-15-Closures/Day-15-07-closures-in-swiftui-and-uikit.md`
+- `Day-15-Closures/Day-15-08-closures-interview-guide.md`
