@@ -33,3 +33,12 @@ Official references:
 - `Day-01-Swift-Basics/Day-01-03-basic-data-types-and-literals.md`
 - `Day-01-Swift-Basics/Day-01-04-operators-expressions-and-basic-input-output.md`
 - `Day-01-Swift-Basics/Day-01-05-swift-6-1-to-6-3-updates-for-beginners.md`
+
+## Day 2 Files
+
+- `Day-02-Control-Flow/Day-02-01-if-else-conditionals.md`
+- `Day-02-Control-Flow/Day-02-02-switch-statements.md`
+- `Day-02-Control-Flow/Day-02-03-loops-for-while-repeat.md`
+- `Day-02-Control-Flow/Day-02-04-guard-and-early-exits.md`
+- `Day-02-Control-Flow/Day-02-05-pattern-matching-and-where.md`
+- `Day-02-Control-Flow/Day-02-06-control-flow-interview-guide.md`
