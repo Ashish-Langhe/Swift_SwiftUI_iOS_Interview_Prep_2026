@@ -248,3 +248,56 @@ For **Opaque Types With Some**, fill it like this:
 At the syntax level, this topic gives me a Swift mechanism for a specific behavior. At the design level, I use it to make ownership, state, or boundaries clearer. The tradeoff is that misuse can hide complexity or create coupling. In a real iOS app, I would apply it where the invariant matters, verify it with focused tests or tooling, and avoid using it just because the syntax is available.
 ```
 
+## More Coding Examples
+
+These examples are intentionally small, but they are shaped like real app code. Use them to connect **Opaque Types With Some** to code you might write in a SwiftUI/UIKit feature.
+
+### Example 1: Mockable Service Protocol
+
+```swift
+protocol ProductLoading {
+    func products() async throws -> [Product]
+}
+
+struct ProductListViewModel {
+    let loader: ProductLoading
+}
+```
+
+The feature depends on behavior, not a concrete networking class.
+
+### Example 2: Test Double
+
+```swift
+struct StubProductLoader: ProductLoading {
+    func products() async throws -> [Product] {
+        [Product(id: "1", title: "Keyboard")]
+    }
+}
+```
+
+A protocol becomes valuable when it makes testing and substitution clearer.
+
+### How To Extend These Examples
+
+- Add one failure path.
+- Add one test case.
+- Add one version that would be wrong in production and explain why.
+- Explain what changes if this code moves from one screen into a shared module.
+
+## Topic-Focused Mini Example
+
+### Hide concrete return type while preserving static type
+
+```swift
+func makeHeader() -> some View {
+    Text("Profile").font(.headline)
+}
+```
+
+`some` is common when callers do not need the concrete type but the compiler should keep it.
+
+### Why This Fits Opaque Types With Some
+
+This example is intentionally small so the core idea is easy to see. After understanding it, expand it with a failure path, a test case, and one realistic constraint from a production iOS feature.
+

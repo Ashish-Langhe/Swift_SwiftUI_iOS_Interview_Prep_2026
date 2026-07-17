@@ -563,3 +563,66 @@ For **Variables And Constants**, fill it like this:
 At the syntax level, this topic gives me a Swift mechanism for a specific behavior. At the design level, I use it to make ownership, state, or boundaries clearer. The tradeoff is that misuse can hide complexity or create coupling. In a real iOS app, I would apply it where the invariant matters, verify it with focused tests or tooling, and avoid using it just because the syntax is available.
 ```
 
+## More Coding Examples
+
+These examples are intentionally small, but they are shaped like real app code. Use them to connect **Variables And Constants** to code you might write in a SwiftUI/UIKit feature.
+
+### Example 1: Editable Profile Draft
+
+```swift
+struct ProfileDraft {
+    var firstName: String
+    var lastName: String
+    let userID: UUID
+
+    var displayName: String {
+        "\(firstName) \(lastName)".trimmingCharacters(in: .whitespaces)
+    }
+}
+
+var draft = ProfileDraft(firstName: "Ashish", lastName: "Langhe", userID: UUID())
+draft.firstName = "Aashish"
+print(draft.displayName)
+```
+
+This is approachable because it uses basic variables and constants in a real app shape: editable user input plus a fixed identity.
+
+### Example 2: Simple Validation Flag
+
+```swift
+let minimumPasswordLength = 8
+var password = "swift2026"
+
+let isPasswordValid = password.count >= minimumPasswordLength
+print(isPasswordValid ? "Enable Continue" : "Disable Continue")
+```
+
+Small constants remove magic numbers and make UI decisions easier to read.
+
+### How To Extend These Examples
+
+- Add one failure path.
+- Add one test case.
+- Add one version that would be wrong in production and explain why.
+- Explain what changes if this code moves from one screen into a shared module.
+
+## Topic-Focused Mini Example
+
+### Small realistic usage
+
+```swift
+struct ExampleState: Equatable {
+    var title: String
+    var isEnabled: Bool
+}
+
+let state = ExampleState(title: "Continue", isEnabled: true)
+print(state.title)
+```
+
+When studying the topic, rewrite this generic shape into the exact model your screen needs.
+
+### Why This Fits Variables And Constants
+
+This example is intentionally small so the core idea is easy to see. After understanding it, expand it with a failure path, a test case, and one realistic constraint from a production iOS feature.
+

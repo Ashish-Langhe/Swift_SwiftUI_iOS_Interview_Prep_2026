@@ -308,3 +308,67 @@ For **Iteration Patterns**, fill it like this:
 At the syntax level, this topic gives me a Swift mechanism for a specific behavior. At the design level, I use it to make ownership, state, or boundaries clearer. The tradeoff is that misuse can hide complexity or create coupling. In a real iOS app, I would apply it where the invariant matters, verify it with focused tests or tooling, and avoid using it just because the syntax is available.
 ```
 
+## More Coding Examples
+
+These examples are intentionally small, but they are shaped like real app code. Use them to connect **Iteration Patterns** to code you might write in a SwiftUI/UIKit feature.
+
+### Example 1: Fast Favorite Lookup
+
+```swift
+let favoriteProductIDs: Set<String> = ["p1", "p3", "p9"]
+let productID = "p3"
+
+if favoriteProductIDs.contains(productID) {
+    print("Show filled heart icon")
+}
+```
+
+A set is a simple, realistic choice when the UI repeatedly checks membership.
+
+### Example 2: Group Orders By Status
+
+```swift
+struct Order {
+    let id: String
+    let status: String
+}
+
+let orders = [
+    Order(id: "1", status: "pending"),
+    Order(id: "2", status: "delivered")
+]
+
+let ordersByStatus = Dictionary(grouping: orders, by: { $0.status })
+print(ordersByStatus["pending"] ?? [])
+```
+
+Dictionaries are useful when a screen needs sections or quick lookup.
+
+### How To Extend These Examples
+
+- Add one failure path.
+- Add one test case.
+- Add one version that would be wrong in production and explain why.
+- Explain what changes if this code moves from one screen into a shared module.
+
+## Topic-Focused Mini Example
+
+### Match shape and value together
+
+```swift
+switch result {
+case .success(let user) where user.isVerified:
+    showDashboard()
+case .success:
+    showVerification()
+case .failure(let error):
+    showError(error)
+}
+```
+
+Pattern matching shines when the branch depends on both state and associated data.
+
+### Why This Fits Iteration Patterns
+
+This example is intentionally small so the core idea is easy to see. After understanding it, expand it with a failure path, a test case, and one realistic constraint from a production iOS feature.
+

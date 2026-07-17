@@ -347,3 +347,65 @@ For **Implicitly Unwrapped Optionals**, fill it like this:
 At the syntax level, this topic gives me a Swift mechanism for a specific behavior. At the design level, I use it to make ownership, state, or boundaries clearer. The tradeoff is that misuse can hide complexity or create coupling. In a real iOS app, I would apply it where the invariant matters, verify it with focused tests or tooling, and avoid using it just because the syntax is available.
 ```
 
+## More Coding Examples
+
+These examples are intentionally small, but they are shaped like real app code. Use them to connect **Implicitly Unwrapped Optionals** to code you might write in a SwiftUI/UIKit feature.
+
+### Example 1: Safe Optional UI Fallback
+
+```swift
+struct UserProfile {
+    let name: String?
+    let city: String?
+}
+
+func subtitle(for profile: UserProfile) -> String {
+    profile.city ?? "Location not added"
+}
+```
+
+This is realistic because API fields are often optional, but the UI still needs stable text.
+
+### Example 2: Guard Binding Before Navigation
+
+```swift
+func openProfile(userID: String?) {
+    guard let userID else {
+        print("Cannot open profile without user ID")
+        return
+    }
+
+    print("Open profile: \(userID)")
+}
+```
+
+`guard let` keeps the valid path clean and prevents accidental navigation with missing data.
+
+### How To Extend These Examples
+
+- Add one failure path.
+- Add one test case.
+- Add one version that would be wrong in production and explain why.
+- Explain what changes if this code moves from one screen into a shared module.
+
+## Topic-Focused Mini Example
+
+### Limit IUO to framework lifecycle boundaries
+
+```swift
+final class ProfileViewController: UIViewController {
+    private var titleLabel: UILabel!
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        titleLabel = UILabel()
+    }
+}
+```
+
+IUOs should be rare and tied to lifecycle guarantees you can explain.
+
+### Why This Fits Implicitly Unwrapped Optionals
+
+This example is intentionally small so the core idea is easy to see. After understanding it, expand it with a failure path, a test case, and one realistic constraint from a production iOS feature.
+

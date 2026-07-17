@@ -350,3 +350,62 @@ For **Advanced Concurrency And Networking Interview Guide**, fill it like this:
 At the syntax level, this topic gives me a Swift mechanism for a specific behavior. At the design level, I use it to make ownership, state, or boundaries clearer. The tradeoff is that misuse can hide complexity or create coupling. In a real iOS app, I would apply it where the invariant matters, verify it with focused tests or tooling, and avoid using it just because the syntax is available.
 ```
 
+## More Coding Examples
+
+These examples are intentionally small, but they are shaped like real app code. Use them to connect **Advanced Concurrency And Networking Interview Guide** to code you might write in a SwiftUI/UIKit feature.
+
+### Example 1: Parallel Dashboard Load
+
+```swift
+func dashboard() async throws -> Dashboard {
+    async let profile = api.profile()
+    async let messages = api.messages()
+    async let settings = api.settings()
+
+    return try await Dashboard(
+        profile: profile,
+        messages: messages,
+        settings: settings
+    )
+}
+```
+
+Independent network calls can run in parallel with `async let`.
+
+### Example 2: Timeout Wrapper Usage
+
+```swift
+let products = try await withTimeout(.seconds(8)) {
+    try await api.products()
+}
+```
+
+Production networking needs timeouts and cancellation behavior, not only happy-path requests.
+
+### How To Extend These Examples
+
+- Add one failure path.
+- Add one test case.
+- Add one version that would be wrong in production and explain why.
+- Explain what changes if this code moves from one screen into a shared module.
+
+## Topic-Focused Mini Example
+
+### Small realistic usage
+
+```swift
+struct ExampleState: Equatable {
+    var title: String
+    var isEnabled: Bool
+}
+
+let state = ExampleState(title: "Continue", isEnabled: true)
+print(state.title)
+```
+
+When studying the topic, rewrite this generic shape into the exact model your screen needs.
+
+### Why This Fits Advanced Concurrency And Networking Interview Guide
+
+This example is intentionally small so the core idea is easy to see. After understanding it, expand it with a failure path, a test case, and one realistic constraint from a production iOS feature.
+

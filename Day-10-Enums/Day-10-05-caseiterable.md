@@ -264,3 +264,62 @@ For **CaseIterable**, fill it like this:
 At the syntax level, this topic gives me a Swift mechanism for a specific behavior. At the design level, I use it to make ownership, state, or boundaries clearer. The tradeoff is that misuse can hide complexity or create coupling. In a real iOS app, I would apply it where the invariant matters, verify it with focused tests or tooling, and avoid using it just because the syntax is available.
 ```
 
+## More Coding Examples
+
+These examples are intentionally small, but they are shaped like real app code. Use them to connect **CaseIterable** to code you might write in a SwiftUI/UIKit feature.
+
+### Example 1: Loading State Enum
+
+```swift
+enum ProductsState {
+    case idle
+    case loading
+    case loaded([String])
+    case failed(String)
+}
+
+let state = ProductsState.loaded(["MacBook", "iPhone"])
+```
+
+One enum replaces multiple booleans and prevents impossible UI states.
+
+### Example 2: Route Enum
+
+```swift
+enum AppRoute {
+    case home
+    case productDetail(id: String)
+    case settings
+}
+```
+
+Associated values let routes carry only the data they need.
+
+### How To Extend These Examples
+
+- Add one failure path.
+- Add one test case.
+- Add one version that would be wrong in production and explain why.
+- Explain what changes if this code moves from one screen into a shared module.
+
+## Topic-Focused Mini Example
+
+### Match shape and value together
+
+```swift
+switch result {
+case .success(let user) where user.isVerified:
+    showDashboard()
+case .success:
+    showVerification()
+case .failure(let error):
+    showError(error)
+}
+```
+
+Pattern matching shines when the branch depends on both state and associated data.
+
+### Why This Fits CaseIterable
+
+This example is intentionally small so the core idea is easy to see. After understanding it, expand it with a failure path, a test case, and one realistic constraint from a production iOS feature.
+

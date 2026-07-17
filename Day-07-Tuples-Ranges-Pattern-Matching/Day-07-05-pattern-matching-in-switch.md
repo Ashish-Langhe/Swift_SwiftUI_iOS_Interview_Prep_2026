@@ -278,3 +278,66 @@ For **Pattern Matching In Switch**, fill it like this:
 At the syntax level, this topic gives me a Swift mechanism for a specific behavior. At the design level, I use it to make ownership, state, or boundaries clearer. The tradeoff is that misuse can hide complexity or create coupling. In a real iOS app, I would apply it where the invariant matters, verify it with focused tests or tooling, and avoid using it just because the syntax is available.
 ```
 
+## More Coding Examples
+
+These examples are intentionally small, but they are shaped like real app code. Use them to connect **Pattern Matching In Switch** to code you might write in a SwiftUI/UIKit feature.
+
+### Example 1: Pagination Range
+
+```swift
+func visibleRange(page: Int, pageSize: Int, total: Int) -> Range<Int> {
+    let start = min(page * pageSize, total)
+    let end = min(start + pageSize, total)
+    return start..<end
+}
+
+let range = visibleRange(page: 1, pageSize: 20, total: 45)
+```
+
+Ranges are practical for pagination and slicing logic.
+
+### Example 2: Pattern Matching Result Tuples
+
+```swift
+let response = (statusCode: 204, itemCount: 0)
+
+switch response {
+case (200..<300, 0):
+    print("Show empty success state")
+case (200..<300, _):
+    print("Show content")
+default:
+    print("Show error")
+}
+```
+
+Pattern matching lets related values be interpreted together.
+
+### How To Extend These Examples
+
+- Add one failure path.
+- Add one test case.
+- Add one version that would be wrong in production and explain why.
+- Explain what changes if this code moves from one screen into a shared module.
+
+## Topic-Focused Mini Example
+
+### Match shape and value together
+
+```swift
+switch result {
+case .success(let user) where user.isVerified:
+    showDashboard()
+case .success:
+    showVerification()
+case .failure(let error):
+    showError(error)
+}
+```
+
+Pattern matching shines when the branch depends on both state and associated data.
+
+### Why This Fits Pattern Matching In Switch
+
+This example is intentionally small so the core idea is easy to see. After understanding it, expand it with a failure path, a test case, and one realistic constraint from a production iOS feature.
+

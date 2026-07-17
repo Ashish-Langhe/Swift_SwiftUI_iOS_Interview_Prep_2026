@@ -387,3 +387,62 @@ For **Async Sequences**, fill it like this:
 At the syntax level, this topic gives me a Swift mechanism for a specific behavior. At the design level, I use it to make ownership, state, or boundaries clearer. The tradeoff is that misuse can hide complexity or create coupling. In a real iOS app, I would apply it where the invariant matters, verify it with focused tests or tooling, and avoid using it just because the syntax is available.
 ```
 
+## More Coding Examples
+
+These examples are intentionally small, but they are shaped like real app code. Use them to connect **Async Sequences** to code you might write in a SwiftUI/UIKit feature.
+
+### Example 1: Lifecycle-Aware SwiftUI Task
+
+```swift
+struct ProductsView: View {
+    @StateObject private var viewModel = ProductsViewModel()
+
+    var body: some View {
+        List(viewModel.products) { product in
+            Text(product.title)
+        }
+        .task {
+            await viewModel.load()
+        }
+    }
+}
+```
+
+`.task` ties async loading to the view lifecycle.
+
+### Example 2: Cooperative Cancellation
+
+```swift
+func process(items: [Item]) async throws {
+    for item in items {
+        try Task.checkCancellation()
+        try await process(item)
+    }
+}
+```
+
+Long-running async work should check cancellation at safe points.
+
+### How To Extend These Examples
+
+- Add one failure path.
+- Add one test case.
+- Add one version that would be wrong in production and explain why.
+- Explain what changes if this code moves from one screen into a shared module.
+
+## Topic-Focused Mini Example
+
+### Consume values over time
+
+```swift
+for await progress in uploadProgressStream {
+    self.progress = progress
+}
+```
+
+Async sequences are ideal when a feature receives multiple values over time.
+
+### Why This Fits Async Sequences
+
+This example is intentionally small so the core idea is easy to see. After understanding it, expand it with a failure path, a test case, and one realistic constraint from a production iOS feature.
+

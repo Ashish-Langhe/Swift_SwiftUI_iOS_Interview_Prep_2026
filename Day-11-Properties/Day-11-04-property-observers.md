@@ -256,3 +256,61 @@ For **Property Observers**, fill it like this:
 At the syntax level, this topic gives me a Swift mechanism for a specific behavior. At the design level, I use it to make ownership, state, or boundaries clearer. The tradeoff is that misuse can hide complexity or create coupling. In a real iOS app, I would apply it where the invariant matters, verify it with focused tests or tooling, and avoid using it just because the syntax is available.
 ```
 
+## More Coding Examples
+
+These examples are intentionally small, but they are shaped like real app code. Use them to connect **Property Observers** to code you might write in a SwiftUI/UIKit feature.
+
+### Example 1: Computed Display Value
+
+```swift
+struct Product {
+    let title: String
+    let price: Decimal
+
+    var displayTitle: String {
+        "\(title) - \(price)"
+    }
+}
+```
+
+Computed properties are useful when the value is derived from stored truth.
+
+### Example 2: Private Setter
+
+```swift
+final class TimerViewModel {
+    private(set) var secondsElapsed = 0
+
+    func tick() {
+        secondsElapsed += 1
+    }
+}
+```
+
+`private(set)` lets the outside world read state while preserving mutation rules.
+
+### How To Extend These Examples
+
+- Add one failure path.
+- Add one test case.
+- Add one version that would be wrong in production and explain why.
+- Explain what changes if this code moves from one screen into a shared module.
+
+## Topic-Focused Mini Example
+
+### React to controlled state changes
+
+```swift
+var searchText: String = "" {
+    didSet {
+        print("Search changed: \(searchText)")
+    }
+}
+```
+
+Observers are best for lightweight reactions, not hidden business workflows.
+
+### Why This Fits Property Observers
+
+This example is intentionally small so the core idea is easy to see. After understanding it, expand it with a failure path, a test case, and one realistic constraint from a production iOS feature.
+

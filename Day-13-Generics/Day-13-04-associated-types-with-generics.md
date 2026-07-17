@@ -244,3 +244,57 @@ For **Associated Types With Generics**, fill it like this:
 At the syntax level, this topic gives me a Swift mechanism for a specific behavior. At the design level, I use it to make ownership, state, or boundaries clearer. The tradeoff is that misuse can hide complexity or create coupling. In a real iOS app, I would apply it where the invariant matters, verify it with focused tests or tooling, and avoid using it just because the syntax is available.
 ```
 
+## More Coding Examples
+
+These examples are intentionally small, but they are shaped like real app code. Use them to connect **Associated Types With Generics** to code you might write in a SwiftUI/UIKit feature.
+
+### Example 1: Generic Response Wrapper
+
+```swift
+struct APIResponse<Value: Decodable>: Decodable {
+    let value: Value
+    let requestID: String
+}
+```
+
+Generics preserve the decoded payload type while sharing wrapper logic.
+
+### Example 2: Reusable Cache
+
+```swift
+final class Cache<Key: Hashable, Value> {
+    private var storage: [Key: Value] = [:]
+
+    subscript(key: Key) -> Value? {
+        get { storage[key] }
+        set { storage[key] = newValue }
+    }
+}
+```
+
+Generic types are useful when the behavior is the same but the stored types vary.
+
+### How To Extend These Examples
+
+- Add one failure path.
+- Add one test case.
+- Add one version that would be wrong in production and explain why.
+- Explain what changes if this code moves from one screen into a shared module.
+
+## Topic-Focused Mini Example
+
+### Let conformers choose related types
+
+```swift
+protocol Repository {
+    associatedtype Model
+    func all() async throws -> [Model]
+}
+```
+
+Associated types are powerful when the protocol describes a family of related types.
+
+### Why This Fits Associated Types With Generics
+
+This example is intentionally small so the core idea is easy to see. After understanding it, expand it with a failure path, a test case, and one realistic constraint from a production iOS feature.
+

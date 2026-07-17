@@ -575,3 +575,73 @@ For **If, Else If, And Else Conditionals**, fill it like this:
 At the syntax level, this topic gives me a Swift mechanism for a specific behavior. At the design level, I use it to make ownership, state, or boundaries clearer. The tradeoff is that misuse can hide complexity or create coupling. In a real iOS app, I would apply it where the invariant matters, verify it with focused tests or tooling, and avoid using it just because the syntax is available.
 ```
 
+## More Coding Examples
+
+These examples are intentionally small, but they are shaped like real app code. Use them to connect **If, Else If, And Else Conditionals** to code you might write in a SwiftUI/UIKit feature.
+
+### Example 1: Login Button State
+
+```swift
+func loginButtonTitle(isLoading: Bool, canSubmit: Bool) -> String {
+    if isLoading {
+        return "Signing In..."
+    } else if canSubmit {
+        return "Sign In"
+    } else {
+        return "Enter Details"
+    }
+}
+```
+
+This shows control flow as product behavior: the branch directly maps to what the user sees.
+
+### Example 2: Switch Over Permission State
+
+```swift
+enum CameraPermission {
+    case notDetermined
+    case granted
+    case denied
+}
+
+func message(for permission: CameraPermission) -> String {
+    switch permission {
+    case .notDetermined:
+        return "We need camera access."
+    case .granted:
+        return "Ready to scan."
+    case .denied:
+        return "Enable camera access in Settings."
+    }
+}
+```
+
+The compiler forces every permission case to be handled.
+
+### How To Extend These Examples
+
+- Add one failure path.
+- Add one test case.
+- Add one version that would be wrong in production and explain why.
+- Explain what changes if this code moves from one screen into a shared module.
+
+## Topic-Focused Mini Example
+
+### Small realistic usage
+
+```swift
+struct ExampleState: Equatable {
+    var title: String
+    var isEnabled: Bool
+}
+
+let state = ExampleState(title: "Continue", isEnabled: true)
+print(state.title)
+```
+
+When studying the topic, rewrite this generic shape into the exact model your screen needs.
+
+### Why This Fits If, Else If, And Else Conditionals
+
+This example is intentionally small so the core idea is easy to see. After understanding it, expand it with a failure path, a test case, and one realistic constraint from a production iOS feature.
+

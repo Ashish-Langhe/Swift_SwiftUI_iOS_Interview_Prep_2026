@@ -374,3 +374,55 @@ For **Argument Labels**, fill it like this:
 At the syntax level, this topic gives me a Swift mechanism for a specific behavior. At the design level, I use it to make ownership, state, or boundaries clearer. The tradeoff is that misuse can hide complexity or create coupling. In a real iOS app, I would apply it where the invariant matters, verify it with focused tests or tooling, and avoid using it just because the syntax is available.
 ```
 
+## More Coding Examples
+
+These examples are intentionally small, but they are shaped like real app code. Use them to connect **Argument Labels** to code you might write in a SwiftUI/UIKit feature.
+
+### Example 1: Formatter Function
+
+```swift
+func formattedName(first: String, last: String) -> String {
+    "\(first) \(last)".trimmingCharacters(in: .whitespacesAndNewlines)
+}
+
+let title = formattedName(first: "Ashish", last: "Langhe")
+```
+
+A small function keeps formatting consistent across labels, cells, and detail screens.
+
+### Example 2: Async Service Function
+
+```swift
+func loadProfileTitle(userID: UUID, service: ProfileService) async throws -> String {
+    let profile = try await service.profile(id: userID)
+    return formattedName(first: profile.firstName, last: profile.lastName)
+}
+```
+
+This keeps async loading and formatting separate but composable.
+
+### How To Extend These Examples
+
+- Add one failure path.
+- Add one test case.
+- Add one version that would be wrong in production and explain why.
+- Explain what changes if this code moves from one screen into a shared module.
+
+## Topic-Focused Mini Example
+
+### Make the call site read like a sentence
+
+```swift
+func moveMessage(from source: Folder, to destination: Folder) {
+    print("Move from \(source.name) to \(destination.name)")
+}
+
+moveMessage(from: inbox, to: archive)
+```
+
+Argument labels are part of API design because they shape readability where the function is used.
+
+### Why This Fits Argument Labels
+
+This example is intentionally small so the core idea is easy to see. After understanding it, expand it with a failure path, a test case, and one realistic constraint from a production iOS feature.
+
