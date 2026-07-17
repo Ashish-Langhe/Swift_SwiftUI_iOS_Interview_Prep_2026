@@ -401,3 +401,15 @@ Official references:
 - `Day-31-Persistence/Day-31-07-migration-basics.md`
 - `Day-31-Persistence/Day-31-08-persistence-decision-guide-and-security.md`
 - `Day-31-Persistence/Day-31-09-persistence-interview-guide.md`
+
+## Day 32 Files
+
+- `Day-32-Performance-And-Debugging/Day-32-01-instruments-debugging-workflow.md`
+- `Day-32-Performance-And-Debugging/Day-32-02-time-profiler.md`
+- `Day-32-Performance-And-Debugging/Day-32-03-memory-graph-and-leak-debugging.md`
+- `Day-32-Performance-And-Debugging/Day-32-04-allocations-and-memory-footprint.md`
+- `Day-32-Performance-And-Debugging/Day-32-05-swiftui-performance.md`
+- `Day-32-Performance-And-Debugging/Day-32-06-main-thread-work-and-responsiveness.md`
+- `Day-32-Performance-And-Debugging/Day-32-07-copy-on-write-performance.md`
+- `Day-32-Performance-And-Debugging/Day-32-08-async-debugging-swift-6-2.md`
+- `Day-32-Performance-And-Debugging/Day-32-09-performance-debugging-interview-guide.md`
