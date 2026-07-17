@@ -1,6 +1,6 @@
 # Swift Fundamentals 2026
 
-This folder is a day-wise Swift interview preparation track from fundamentals to modern Swift 6.x topics.
+This is a day-wise Swift interview preparation track from fundamentals to modern Swift 6.x topics.
 
 ## How To Use
 
@@ -28,8 +28,8 @@ Official references:
 
 ## Day 1 Files
 
-- `Day-01-01-variables-and-constants.md`
-- `Day-01-02-type-inference-and-type-annotations.md`
-- `Day-01-03-basic-data-types-and-literals.md`
-- `Day-01-04-operators-expressions-and-basic-input-output.md`
-- `Day-01-05-swift-6-1-to-6-3-updates-for-beginners.md`
+- `Day-01-Swift-Basics/Day-01-01-variables-and-constants.md`
+- `Day-01-Swift-Basics/Day-01-02-type-inference-and-type-annotations.md`
+- `Day-01-Swift-Basics/Day-01-03-basic-data-types-and-literals.md`
+- `Day-01-Swift-Basics/Day-01-04-operators-expressions-and-basic-input-output.md`
+- `Day-01-Swift-Basics/Day-01-05-swift-6-1-to-6-3-updates-for-beginners.md`

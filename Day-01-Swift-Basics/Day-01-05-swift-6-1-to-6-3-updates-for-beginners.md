@@ -320,7 +320,7 @@ I could not verify an official Swift 6.4 release from Swift.org as of July 16, 2
 When Swift 6.4 is officially released, add a separate file:
 
 ```text
-Day-01-06-swift-6-4-updates.md
+Day-01-Swift-Basics/Day-01-06-swift-6-4-updates.md
 ```
 
 Recommended source:
