@@ -439,3 +439,16 @@ Official references:
 - `Day-34-Networking-In-iOS/Day-34-09-network-reachability.md`
 - `Day-34-Networking-In-iOS/Day-34-10-api-client-architecture.md`
 - `Day-34-Networking-In-iOS/Day-34-11-networking-interview-guide.md`
+
+## Day 35 Files
+
+- `Day-35-Security-In-iOS/Day-35-01-app-transport-security.md`
+- `Day-35-Security-In-iOS/Day-35-02-keychain-advanced.md`
+- `Day-35-Security-In-iOS/Day-35-03-certificate-pinning.md`
+- `Day-35-Security-In-iOS/Day-35-04-biometric-auth.md`
+- `Day-35-Security-In-iOS/Day-35-05-secure-storage.md`
+- `Day-35-Security-In-iOS/Day-35-06-jailbreak-root-detection-basics.md`
+- `Day-35-Security-In-iOS/Day-35-07-secrets-handling.md`
+- `Day-35-Security-In-iOS/Day-35-08-owasp-mobile-top-10.md`
+- `Day-35-Security-In-iOS/Day-35-09-privacy-manifests.md`
+- `Day-35-Security-In-iOS/Day-35-10-security-interview-guide.md`
