@@ -425,3 +425,17 @@ Official references:
 - `Day-33-SOLID-Principles/Day-33-07-solid-refactoring-case-studies.md`
 - `Day-33-SOLID-Principles/Day-33-08-solid-ios-use-cases-and-architecture-alignment.md`
 - `Day-33-SOLID-Principles/Day-33-09-solid-interview-guide.md`
+
+## Day 34 Files
+
+- `Day-34-Networking-In-iOS/Day-34-01-urlsession-deep-dive.md`
+- `Day-34-Networking-In-iOS/Day-34-02-rest-apis.md`
+- `Day-34-Networking-In-iOS/Day-34-03-request-response-modeling.md`
+- `Day-34-Networking-In-iOS/Day-34-04-authentication-headers.md`
+- `Day-34-Networking-In-iOS/Day-34-05-token-refresh.md`
+- `Day-34-Networking-In-iOS/Day-34-06-retry-and-backoff.md`
+- `Day-34-Networking-In-iOS/Day-34-07-multipart-upload.md`
+- `Day-34-Networking-In-iOS/Day-34-08-download-tasks.md`
+- `Day-34-Networking-In-iOS/Day-34-09-network-reachability.md`
+- `Day-34-Networking-In-iOS/Day-34-10-api-client-architecture.md`
+- `Day-34-Networking-In-iOS/Day-34-11-networking-interview-guide.md`
