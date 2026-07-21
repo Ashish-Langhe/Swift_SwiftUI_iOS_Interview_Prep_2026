@@ -452,3 +452,23 @@ Official references:
 - `Day-35-Security-In-iOS/Day-35-08-owasp-mobile-top-10.md`
 - `Day-35-Security-In-iOS/Day-35-09-privacy-manifests.md`
 - `Day-35-Security-In-iOS/Day-35-10-security-interview-guide.md`
+
+## Day 36 Files
+
+- `Day-36-UIKit-Fundamentals-And-Advanced/Day-36-01-uiviewcontroller-lifecycle.md`
+- `Day-36-UIKit-Fundamentals-And-Advanced/Day-36-02-auto-layout.md`
+- `Day-36-UIKit-Fundamentals-And-Advanced/Day-36-03-uitableview-uicollectionview.md`
+- `Day-36-UIKit-Fundamentals-And-Advanced/Day-36-04-diffable-data-source.md`
+- `Day-36-UIKit-Fundamentals-And-Advanced/Day-36-05-compositional-layout.md`
+- `Day-36-UIKit-Fundamentals-And-Advanced/Day-36-06-delegates-and-data-sources.md`
+- `Day-36-UIKit-Fundamentals-And-Advanced/Day-36-07-uikit-swiftui-interoperability.md`
+- `Day-36-UIKit-Fundamentals-And-Advanced/Day-36-08-uikit-advanced-patterns.md`
+- `Day-36-UIKit-Fundamentals-And-Advanced/Day-36-09-uikit-interview-guide.md`
+- `Day-36-UIKit-Fundamentals-And-Advanced/Day-36-10-uikit-navigation-and-presentation.md`
+- `Day-36-UIKit-Fundamentals-And-Advanced/Day-36-11-responder-chain-gestures-and-events.md`
+- `Day-36-UIKit-Fundamentals-And-Advanced/Day-36-12-uiview-layers-drawing-and-rendering.md`
+- `Day-36-UIKit-Fundamentals-And-Advanced/Day-36-13-uikit-performance.md`
+- `Day-36-UIKit-Fundamentals-And-Advanced/Day-36-14-accessibility-dynamic-type-and-localization.md`
+- `Day-36-UIKit-Fundamentals-And-Advanced/Day-36-15-forms-input-keyboard-and-validation.md`
+- `Day-36-UIKit-Fundamentals-And-Advanced/Day-36-16-uikit-animations-and-transitions.md`
+- `Day-36-UIKit-Fundamentals-And-Advanced/Day-36-17-uikit-architecture-for-large-apps.md`
