@@ -413,3 +413,15 @@ Official references:
 - `Day-32-Performance-And-Debugging/Day-32-07-copy-on-write-performance.md`
 - `Day-32-Performance-And-Debugging/Day-32-08-async-debugging-swift-6-2.md`
 - `Day-32-Performance-And-Debugging/Day-32-09-performance-debugging-interview-guide.md`
+
+## Day 33 Files
+
+- `Day-33-SOLID-Principles/Day-33-01-solid-overview-and-ios-mental-model.md`
+- `Day-33-SOLID-Principles/Day-33-02-single-responsibility-principle.md`
+- `Day-33-SOLID-Principles/Day-33-03-open-closed-principle.md`
+- `Day-33-SOLID-Principles/Day-33-04-liskov-substitution-principle.md`
+- `Day-33-SOLID-Principles/Day-33-05-interface-segregation-principle.md`
+- `Day-33-SOLID-Principles/Day-33-06-dependency-inversion-principle.md`
+- `Day-33-SOLID-Principles/Day-33-07-solid-refactoring-case-studies.md`
+- `Day-33-SOLID-Principles/Day-33-08-solid-ios-use-cases-and-architecture-alignment.md`
+- `Day-33-SOLID-Principles/Day-33-09-solid-interview-guide.md`
