@@ -472,3 +472,20 @@ Official references:
 - `Day-36-UIKit-Fundamentals-And-Advanced/Day-36-15-forms-input-keyboard-and-validation.md`
 - `Day-36-UIKit-Fundamentals-And-Advanced/Day-36-16-uikit-animations-and-transitions.md`
 - `Day-36-UIKit-Fundamentals-And-Advanced/Day-36-17-uikit-architecture-for-large-apps.md`
+
+## Day 37 Files
+
+- `Day-37-Logical-Coding-Interview-Questions/Day-37-01-basic-number-and-math-logic.md`
+- `Day-37-Logical-Coding-Interview-Questions/Day-37-02-strings-arrays-and-collections.md`
+- `Day-37-Logical-Coding-Interview-Questions/Day-37-03-patterns-recursion-sorting-and-problem-solving.md`
+- `Day-37-Logical-Coding-Interview-Questions/Day-37-04-swift-and-ios-practical-coding-prompts.md`
+- `Day-37-Logical-Coding-Interview-Questions/Day-37-05-logical-coding-interview-practice-guide.md`
+- `Day-37-Logical-Coding-Interview-Questions/Day-37-06-senior-ios-architect-problem-solving-rubric.md`
+- `Day-37-Logical-Coding-Interview-Questions/Day-37-07-solved-core-logic-problems-in-swift.md`
+- `Day-37-Logical-Coding-Interview-Questions/Day-37-08-solved-ios-architecture-coding-scenarios.md`
+- `Day-37-Logical-Coding-Interview-Questions/Day-37-09-swift-basics-coding-drills.md`
+- `Day-37-Logical-Coding-Interview-Questions/Day-37-10-deeper-swift-problem-solving.md`
+- `Day-37-Logical-Coding-Interview-Questions/Day-37-11-core-coding-logic-patterns-with-solutions.md`
+- `Day-37-Logical-Coding-Interview-Questions/Day-37-12-core-coding-question-bank-by-difficulty.md`
+- `Day-37-Logical-Coding-Interview-Questions/Day-37-13-basic-array-coding-questions-with-solutions.md`
+- `Day-37-Logical-Coding-Interview-Questions/Day-37-14-basic-string-coding-questions-with-solutions.md`
