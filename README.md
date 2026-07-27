@@ -24,7 +24,7 @@ iOS interviews rarely test only syntax. They test how you reason about app state
 ## Repository Coverage
 
 - **38 day-wise modules**
-- **365 topic files**
+- **372 topic files**
 - Swift fundamentals through Swift 6.x language and tooling changes
 - SwiftUI, UIKit, architecture, networking, persistence, security, testing, performance, and debugging
 - Junior-to-senior interview framing with examples, use cases, mistakes, and decision guides
@@ -515,6 +515,13 @@ iOS interviews rarely test only syntax. They test how you reason about app state
 - [Day 38: Realtime, Notifications, And Deep Links](Day-38-System-Design-iOS/Day-38-10-realtime-notifications-and-deep-links.md)
 - [Day 38: Security, Performance, Observability, And Release Design](Day-38-System-Design-iOS/Day-38-11-security-performance-observability-release.md)
 - [Day 38: iOS System Design Interview Guide](Day-38-System-Design-iOS/Day-38-12-system-design-interview-guide.md)
+- [Day 38: Design YouTube For iOS](Day-38-System-Design-iOS/Day-38-13-design-youtube-for-ios.md)
+- [Day 38: Design Amazon For iOS](Day-38-System-Design-iOS/Day-38-14-design-amazon-for-ios.md)
+- [Day 38: Design Instagram Feed For iOS](Day-38-System-Design-iOS/Day-38-15-design-instagram-feed.md)
+- [Day 38: Design WhatsApp Chat For iOS](Day-38-System-Design-iOS/Day-38-16-design-whatsapp-chat.md)
+- [Day 38: Design Uber Ride Tracking For iOS](Day-38-System-Design-iOS/Day-38-17-design-uber-ride-tracking.md)
+- [Day 38: Design Swiggy Food Delivery For iOS](Day-38-System-Design-iOS/Day-38-18-design-swiggy-food-delivery.md)
+- [Day 38: Design A Banking App For iOS](Day-38-System-Design-iOS/Day-38-19-design-banking-app.md)
 
 ## Preparation Strategy
 

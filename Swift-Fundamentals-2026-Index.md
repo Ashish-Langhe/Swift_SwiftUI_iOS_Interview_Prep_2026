@@ -504,3 +504,10 @@ Official references:
 - `Day-38-System-Design-iOS/Day-38-10-realtime-notifications-and-deep-links.md`
 - `Day-38-System-Design-iOS/Day-38-11-security-performance-observability-release.md`
 - `Day-38-System-Design-iOS/Day-38-12-system-design-interview-guide.md`
+- `Day-38-System-Design-iOS/Day-38-13-design-youtube-for-ios.md`
+- `Day-38-System-Design-iOS/Day-38-14-design-amazon-for-ios.md`
+- `Day-38-System-Design-iOS/Day-38-15-design-instagram-feed.md`
+- `Day-38-System-Design-iOS/Day-38-16-design-whatsapp-chat.md`
+- `Day-38-System-Design-iOS/Day-38-17-design-uber-ride-tracking.md`
+- `Day-38-System-Design-iOS/Day-38-18-design-swiggy-food-delivery.md`
+- `Day-38-System-Design-iOS/Day-38-19-design-banking-app.md`
