@@ -511,3 +511,4 @@ Official references:
 - `Day-38-System-Design-iOS/Day-38-17-design-uber-ride-tracking.md`
 - `Day-38-System-Design-iOS/Day-38-18-design-swiggy-food-delivery.md`
 - `Day-38-System-Design-iOS/Day-38-19-design-banking-app.md`
+- `Day-38-System-Design-iOS/Day-38-20-generic-ios-mobile-system-design-template.md`

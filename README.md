@@ -24,7 +24,7 @@ iOS interviews rarely test only syntax. They test how you reason about app state
 ## Repository Coverage
 
 - **38 day-wise modules**
-- **372 topic files**
+- **373 topic files**
 - Swift fundamentals through Swift 6.x language and tooling changes
 - SwiftUI, UIKit, architecture, networking, persistence, security, testing, performance, and debugging
 - Junior-to-senior interview framing with examples, use cases, mistakes, and decision guides
@@ -522,6 +522,7 @@ iOS interviews rarely test only syntax. They test how you reason about app state
 - [Day 38: Design Uber Ride Tracking For iOS](Day-38-System-Design-iOS/Day-38-17-design-uber-ride-tracking.md)
 - [Day 38: Design Swiggy Food Delivery For iOS](Day-38-System-Design-iOS/Day-38-18-design-swiggy-food-delivery.md)
 - [Day 38: Design A Banking App For iOS](Day-38-System-Design-iOS/Day-38-19-design-banking-app.md)
+- [Day 38: Generic iOS Mobile System Design Template](Day-38-System-Design-iOS/Day-38-20-generic-ios-mobile-system-design-template.md)
 
 ## Preparation Strategy
 
