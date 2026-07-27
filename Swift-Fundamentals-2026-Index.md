@@ -489,3 +489,18 @@ Official references:
 - `Day-37-Logical-Coding-Interview-Questions/Day-37-12-core-coding-question-bank-by-difficulty.md`
 - `Day-37-Logical-Coding-Interview-Questions/Day-37-13-basic-array-coding-questions-with-solutions.md`
 - `Day-37-Logical-Coding-Interview-Questions/Day-37-14-basic-string-coding-questions-with-solutions.md`
+
+## Day 38 Files
+
+- `Day-38-System-Design-iOS/Day-38-01-ios-system-design-mindset.md`
+- `Day-38-System-Design-iOS/Day-38-02-requirements-scale-and-api-contracts.md`
+- `Day-38-System-Design-iOS/Day-38-03-high-level-design-ios-client-ecosystem.md`
+- `Day-38-System-Design-iOS/Day-38-04-low-level-design-ios-modules.md`
+- `Day-38-System-Design-iOS/Day-38-05-client-server-communication-process.md`
+- `Day-38-System-Design-iOS/Day-38-06-video-streaming-app-system-design-netflix-youtube.md`
+- `Day-38-System-Design-iOS/Day-38-07-ecommerce-app-system-design-amazon-flipkart.md`
+- `Day-38-System-Design-iOS/Day-38-08-feed-search-and-recommendation-systems.md`
+- `Day-38-System-Design-iOS/Day-38-09-offline-cache-and-sync-design.md`
+- `Day-38-System-Design-iOS/Day-38-10-realtime-notifications-and-deep-links.md`
+- `Day-38-System-Design-iOS/Day-38-11-security-performance-observability-release.md`
+- `Day-38-System-Design-iOS/Day-38-12-system-design-interview-guide.md`

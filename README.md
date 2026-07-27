@@ -23,8 +23,8 @@ iOS interviews rarely test only syntax. They test how you reason about app state
 
 ## Repository Coverage
 
-- **37 day-wise modules**
-- **353 topic files**
+- **38 day-wise modules**
+- **365 topic files**
 - Swift fundamentals through Swift 6.x language and tooling changes
 - SwiftUI, UIKit, architecture, networking, persistence, security, testing, performance, and debugging
 - Junior-to-senior interview framing with examples, use cases, mistakes, and decision guides
@@ -501,6 +501,21 @@ iOS interviews rarely test only syntax. They test how you reason about app state
 - [Day 37: Basic Array Coding Questions With Solutions](Day-37-Logical-Coding-Interview-Questions/Day-37-13-basic-array-coding-questions-with-solutions.md)
 - [Day 37: Basic String Coding Questions With Solutions](Day-37-Logical-Coding-Interview-Questions/Day-37-14-basic-string-coding-questions-with-solutions.md)
 
+### [Day 38: System Design iOS](Day-38-System-Design-iOS)
+
+- [Day 38: iOS System Design Mindset](Day-38-System-Design-iOS/Day-38-01-ios-system-design-mindset.md)
+- [Day 38: Requirements, Scale, And API Contracts](Day-38-System-Design-iOS/Day-38-02-requirements-scale-and-api-contracts.md)
+- [Day 38: High-Level Design For iOS App Ecosystem](Day-38-System-Design-iOS/Day-38-03-high-level-design-ios-client-ecosystem.md)
+- [Day 38: Low-Level Design For iOS Modules](Day-38-System-Design-iOS/Day-38-04-low-level-design-ios-modules.md)
+- [Day 38: Client-Server Communication Process](Day-38-System-Design-iOS/Day-38-05-client-server-communication-process.md)
+- [Day 38: Video Streaming App System Design - Netflix And YouTube Style](Day-38-System-Design-iOS/Day-38-06-video-streaming-app-system-design-netflix-youtube.md)
+- [Day 38: E-Commerce App System Design - Amazon And Flipkart Style](Day-38-System-Design-iOS/Day-38-07-ecommerce-app-system-design-amazon-flipkart.md)
+- [Day 38: Feed, Search, And Recommendation Systems](Day-38-System-Design-iOS/Day-38-08-feed-search-and-recommendation-systems.md)
+- [Day 38: Offline, Cache, And Sync Design](Day-38-System-Design-iOS/Day-38-09-offline-cache-and-sync-design.md)
+- [Day 38: Realtime, Notifications, And Deep Links](Day-38-System-Design-iOS/Day-38-10-realtime-notifications-and-deep-links.md)
+- [Day 38: Security, Performance, Observability, And Release Design](Day-38-System-Design-iOS/Day-38-11-security-performance-observability-release.md)
+- [Day 38: iOS System Design Interview Guide](Day-38-System-Design-iOS/Day-38-12-system-design-interview-guide.md)
+
 ## Preparation Strategy
 
 For fastest interview revision, use this order:
@@ -512,6 +527,7 @@ For fastest interview revision, use this order:
 5. **Architecture:** Days 28-30 and Day 33 for MVVM, VIPER, TCA, design patterns, and SOLID principles.
 6. **Production iOS:** Days 31-35 for persistence, performance, networking, security, privacy, and debugging.
 7. **Coding Rounds:** Day 37 for logical coding questions, problem-solving patterns, and Swift/iOS practical prompts.
+8. **System Design:** Day 38 for iOS-focused HLD, LLD, communication, large-app examples, offline design, realtime systems, security, observability, and senior interview playbooks.
 
 ## What To Practice After Reading
 
