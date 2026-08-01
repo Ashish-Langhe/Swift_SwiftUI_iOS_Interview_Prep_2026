@@ -382,3 +382,36 @@ Topics:
 - System design for iOS apps
 - Final revision checklist
 
+## Extended Interview Modules
+
+The repository continues beyond this original 30-day roadmap with focused senior-preparation modules:
+
+- Day 31: Persistence
+- Day 32: Performance And Debugging
+- Day 33: SOLID Principles
+- Day 34: Networking In iOS
+- Day 35: Security In iOS
+- Day 36: UIKit Fundamentals And Advanced
+- Day 37: Logical Coding Interview Questions
+- Day 38: System Design iOS
+- Day 39: Mobile System Design - MSD
+
+## Day 39: Mobile System Design - MSD
+
+Topics:
+
+- MSD purpose and interview mindset
+- Requirements, scope, and mobile constraints
+- Mobile HLD and client ecosystem
+- Mobile LLD, iOS modules, and boundaries
+- Data modeling, cache, offline, and sync
+- Networking, realtime, and background work
+- Performance, memory, battery, and UX reliability
+- Security, privacy, observability, and release strategy
+- MSD patterns by app type
+- Senior MSD interview playbook
+- Key points to remember for MSD rounds
+
+Goal:
+
+Prepare for mobile system design interviews from an iOS perspective, with clear structure, senior-level tradeoffs, practical app architecture, and reusable answer templates.

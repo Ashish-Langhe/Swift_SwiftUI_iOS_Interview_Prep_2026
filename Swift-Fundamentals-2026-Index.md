@@ -512,3 +512,17 @@ Official references:
 - `Day-38-System-Design-iOS/Day-38-18-design-swiggy-food-delivery.md`
 - `Day-38-System-Design-iOS/Day-38-19-design-banking-app.md`
 - `Day-38-System-Design-iOS/Day-38-20-generic-ios-mobile-system-design-template.md`
+
+## Day 39 Files
+
+- `Day-39-Mobile-System-Design-MSD/Day-39-01-msd-purpose-and-interview-mindset.md`
+- `Day-39-Mobile-System-Design-MSD/Day-39-02-requirements-scope-and-mobile-constraints.md`
+- `Day-39-Mobile-System-Design-MSD/Day-39-03-mobile-hld-client-ecosystem.md`
+- `Day-39-Mobile-System-Design-MSD/Day-39-04-mobile-lld-ios-modules-and-boundaries.md`
+- `Day-39-Mobile-System-Design-MSD/Day-39-05-data-modeling-cache-offline-and-sync.md`
+- `Day-39-Mobile-System-Design-MSD/Day-39-06-networking-realtime-and-background-work.md`
+- `Day-39-Mobile-System-Design-MSD/Day-39-07-performance-memory-battery-and-ux-reliability.md`
+- `Day-39-Mobile-System-Design-MSD/Day-39-08-security-privacy-observability-and-release-strategy.md`
+- `Day-39-Mobile-System-Design-MSD/Day-39-09-msd-patterns-by-app-type.md`
+- `Day-39-Mobile-System-Design-MSD/Day-39-10-msd-senior-interview-playbook.md`
+- `Day-39-Mobile-System-Design-MSD/Day-39-11-key-points-to-remember-for-msd-round.md`
