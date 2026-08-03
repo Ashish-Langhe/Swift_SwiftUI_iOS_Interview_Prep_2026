@@ -452,6 +452,7 @@ Official references:
 - `Day-35-Security-In-iOS/Day-35-08-owasp-mobile-top-10.md`
 - `Day-35-Security-In-iOS/Day-35-09-privacy-manifests.md`
 - `Day-35-Security-In-iOS/Day-35-10-security-interview-guide.md`
+- `Day-35-Security-In-iOS/Day-35-11-production-ios-security-deep-dive.md`
 
 ## Day 36 Files
 

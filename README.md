@@ -24,7 +24,7 @@ iOS interviews rarely test only syntax. They test how you reason about app state
 ## Repository Coverage
 
 - **39 day-wise modules**
-- **384 topic files**
+- **385 topic files**
 - Swift fundamentals through Swift 6.x language and tooling changes
 - SwiftUI, UIKit, architecture, networking, persistence, security, testing, performance, and debugging
 - Junior-to-senior interview framing with examples, use cases, mistakes, and decision guides
@@ -463,6 +463,7 @@ iOS interviews rarely test only syntax. They test how you reason about app state
 - [Day 35: OWASP Mobile Top 10](Day-35-Security-In-iOS/Day-35-08-owasp-mobile-top-10.md)
 - [Day 35: Privacy Manifests](Day-35-Security-In-iOS/Day-35-09-privacy-manifests.md)
 - [Day 35: Security Interview Guide](Day-35-Security-In-iOS/Day-35-10-security-interview-guide.md)
+- [Day 35: Production iOS Security Deep Dive](Day-35-Security-In-iOS/Day-35-11-production-ios-security-deep-dive.md)
 
 ### [Day 36: UIKit Fundamentals And Advanced](Day-36-UIKit-Fundamentals-And-Advanced)
 
